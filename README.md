@@ -161,7 +161,6 @@ The application includes a real-time GUI that displays:
 - Current input values (steering, throttle, brake, clutch)
 - Active driving mode
 - Connected output drivers
-- Telemetry information
 
 ## Telemetry Output
 
@@ -211,10 +210,6 @@ The application streams the following telemetry data:
 - Reduce GUI refresh rate if needed
 - Check CPU usage with debug driver
 
-## License
-
-Specify your license here
-
 ## Support
 
 For issues, questions, or contributions, please refer to the project repository or contact the maintainer.
@@ -222,3 +217,4 @@ For issues, questions, or contributions, please refer to the project repository 
 ---
 
 **Last Updated**: February 2026
+
