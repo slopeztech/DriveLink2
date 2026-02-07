@@ -1,0 +1,5 @@
+{
+  "driver_type": "debug",
+  "display_in_gui": true,
+  "description": "Debug driver configuration - displays data in GUI overlay"
+}

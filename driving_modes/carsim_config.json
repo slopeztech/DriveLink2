@@ -1,0 +1,63 @@
+{
+  "mode_name": "CarSim Default",
+  "description": "Default configuration for CarSim mode - percentage-based simulation",
+  "version": "2.0",
+  
+  "transmission": {
+    "type": "manual",
+    "num_gears": 5,
+    "gear_characteristics": {
+      "-1": {
+        "acceleration_factor": 1.5,
+        "max_speed_percent": 20.0,
+        "description": "Reverse: fast acceleration, 20% max speed"
+      },
+      "0": {
+        "acceleration_factor": 0.0,
+        "max_speed_percent": 0.0,
+        "description": "Neutral: no power"
+      },
+      "1": {
+        "acceleration_factor": 3.0,
+        "max_speed_percent": 20.0,
+        "description": "1st gear: fastest acceleration, 20% max speed"
+      },
+      "2": {
+        "acceleration_factor": 2.0,
+        "max_speed_percent": 40.0,
+        "description": "2nd gear: fast acceleration, 40% max speed"
+      },
+      "3": {
+        "acceleration_factor": 1.5,
+        "max_speed_percent": 60.0,
+        "description": "3rd gear: medium acceleration, 60% max speed"
+      },
+      "4": {
+        "acceleration_factor": 1.2,
+        "max_speed_percent": 80.0,
+        "description": "4th gear: slower acceleration, 80% max speed"
+      },
+      "5": {
+        "acceleration_factor": 0.9,
+        "max_speed_percent": 100.0,
+        "description": "5th gear: slowest acceleration, 100% max speed"
+      }
+    },
+    "shift_cooldown": 0.3
+  },
+  
+  "physics": {
+    "inertia": 0.88,
+    "inertia_description": "How much speed is retained (0-1). Higher = more inertia, slower deceleration",
+    "brake_power": 1.0,
+    "brake_power_description": "Brake effectiveness multiplier. Higher = stronger brakes",
+    "base_acceleration": 12.0,
+    "base_acceleration_description": "Base acceleration rate in percent per second"
+  },
+  
+  "notes": [
+    "This configuration file is for future reference",
+    "Values are currently hardcoded in carsim_mode.py",
+    "In a future version, these values will be loaded from this file"
+  ]
+}

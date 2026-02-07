@@ -1,0 +1,72 @@
+{
+  "mapping_name": "Default Steering Wheel Configuration",
+  "description": "Default mapping for steering wheel, pedals, and gear shift buttons",
+  "version": "1.0",
+  "axes": {
+    "steering": {
+      "axis_id": 0,
+      "description": "Steering wheel rotation",
+      "inverted": false,
+      "deadzone": 0.05,
+      "sensitivity": 1.0
+    },
+    "throttle": {
+      "axis_id": 5,
+      "description": "Accelerator pedal",
+      "inverted": false,
+      "deadzone": 0.05,
+      "sensitivity": 1.0
+    },
+    "brake": {
+      "axis_id": 4,
+      "description": "Brake pedal",
+      "inverted": false,
+      "deadzone": 0.05,
+      "sensitivity": 1.0
+    }
+  },
+  "buttons": {
+    "horn": {
+      "button_id": 0,
+      "description": "Horn button"
+    },
+    "camera_change": {
+      "button_id": 1,
+      "description": "Change camera view"
+    },
+    "clutch": {
+      "button_id": 2,
+      "description": "Clutch pedal button"
+    },
+    "handbrake": {
+      "button_id": 3,
+      "description": "Handbrake/parking brake"
+    },
+    "shift_down": {
+      "button_id": 4,
+      "description": "Shift to lower gear"
+    },
+    "shift_up": {
+      "button_id": 5,
+      "description": "Shift to higher gear"
+    },
+    "pause": {
+      "button_id": 6,
+      "description": "Pause/menu button"
+    },
+    "reset": {
+      "button_id": 7,
+      "description": "Reset vehicle position"
+    }
+  },
+  "hats": {
+    "dpad": {
+      "hat_id": 0,
+      "description": "D-pad for menu navigation",
+      "up": "menu_up",
+      "down": "menu_down",
+      "left": "menu_left",
+      "right": "menu_right"
+    }
+  }
+}

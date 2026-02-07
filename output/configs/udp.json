@@ -1,0 +1,6 @@
+{
+  "host": "192.168.4.1",
+  "port": 4210,
+  "timeout": 0.5,
+  "description": "UDP configuration for ESP32 RC vehicle control"
+}

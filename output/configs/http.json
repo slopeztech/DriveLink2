@@ -1,0 +1,7 @@
+{
+  "host": "localhost",
+  "port": 8000,
+  "endpoint": "/control",
+  "timeout": 2.0,
+  "description": "HTTP configuration for RC vehicle control"
+}

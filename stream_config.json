@@ -1,0 +1,43 @@
+{
+  "config_name": "Default Stream Config",
+  "description": "Configuration for MJPEG stream display and processing",
+  "version": "1.0",
+  
+  "stream": {
+    "url": "http://192.168.1.135/stream",
+    "timeout": 5,
+    "chunk_size": 1024
+  },
+  
+  "display": {
+    "flip_vertical": true,
+    "flip_horizontal": true,
+    "rotation": 0,
+    "brightness": 1.0,
+    "contrast": 1.0,
+    "saturation": 1.0
+  },
+  
+  "resolution": {
+    "target_width": null,
+    "target_height": null,
+    "maintain_aspect_ratio": true,
+    "interpolation": "bilinear"
+  },
+  
+  "performance": {
+    "max_fps": 30,
+    "buffer_size": 1
+  },
+  
+  "notes": [
+    "flip_vertical: Flip image vertically (top-bottom)",
+    "flip_horizontal: Flip image horizontally (left-right)",
+    "rotation: Rotate image in degrees (0, 90, 180, 270)",
+    "brightness: Adjust brightness (0.0-2.0, 1.0=normal)",
+    "contrast: Adjust contrast (0.0-2.0, 1.0=normal)",
+    "saturation: Adjust color saturation (0.0-2.0, 1.0=normal)",
+    "target_width/height: Target resolution (null=auto)",
+    "interpolation: Resize quality (nearest, bilinear, bicubic, lanczos)"
+  ]
+}

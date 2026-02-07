@@ -1,0 +1,15 @@
+{
+  "serial": {
+    "enabled": false,
+    "port": "COM3",
+    "baudrate": 9600,
+    "timeout": 1.0
+  },
+  "http": {
+    "enabled": true,
+    "host": "localhost",
+    "port": 8000,
+    "endpoint": "/control",
+    "timeout": 2.0
+  }
+}
